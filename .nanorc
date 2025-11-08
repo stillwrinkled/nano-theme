@@ -1,0 +1,26 @@
+## ======= BASIC SETTINGS =======
+set linenumbers
+set mouse
+set tabsize 4
+set tabstospaces
+set autoindent
+set constantshow
+set softwrap
+set historylog
+
+## ======= COLORS =======
+set titlecolor brightwhite,blue
+set statuscolor brightwhite,magenta
+set selectedcolor black,green
+set errorcolor brightwhite,red
+set numbercolor cyan
+set functioncolor yellow
+set scrollercolor brightcyan
+
+set whitespace "·»"
+
+
+## ======= SYNTAX HIGHLIGHTING =======
+## macOS uses Homebrew paths — try these in order:
+include /opt/homebrew/share/nano/*.nanorc
+# include /usr/local/share/nano/*.nanorc   # commented out since path doesn't exist
